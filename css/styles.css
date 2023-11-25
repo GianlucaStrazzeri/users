@@ -49,32 +49,63 @@ table {
 
 
 /*Aquí empieza mi codigo css */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 20px;
+bbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  text-align: center;
-  color: #333;
+    text-align: center;
+    color: #333;
 }
 
-/*Quito los puntos de listado */
-ul{
-  text-decoration: none;
-  
-
+img {
+    width: 140px;
+    height: 140px;
+    border-radius: 86% 14% 74% 26% / 10% 77% 23% 90%;
 }
 
-/*Intento organizar la información en cajas */
-li{
- 
-  background-color: aquamarine;
-  display:flex;
-  width:300px;
-  height:20px;
-align-items: center;
+li {
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 9px -4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 9px -4px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 9px -4px rgba(0, 0, 0, 0.14);
+    border-radius: 86% 14% 74% 26% / 10% 77% 23% 90%;
+    padding: 20px;
 }
 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.info-container {
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+}
+
+.info-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
